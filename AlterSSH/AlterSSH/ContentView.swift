@@ -21,9 +21,7 @@ struct ContentView: View
       }
       VStack
       {
-        Text ("Welcome, begin your journey by make a new connection or select a exisitig connection from the history")
-          .font(.system(size: 12, weight: .light, design: .serif))
-          .font(.title)
+        HomePageView()
       }
     } .navigationTitle("Welcome")
   }
@@ -33,8 +31,11 @@ struct HomePageView: View
 {
   var body: some View
   {
-    Text ("Home Page")
-      .navigationTitle("Home Page")
+    VStack{
+      Text ("Welcome").font(.system(size: 24, weight: .light, design: .serif)).multilineTextAlignment(.center).padding(.all)
+      Text("begin your journey by make a new connection or select a exisitig connection from the history").padding(.all).multilineTextAlignment(.center)
+        .font(.system(size: 12, weight: .light, design: .serif))
+    }.navigationTitle("Home Page")
   }
 }
 
@@ -74,6 +75,9 @@ struct ContentView_Previews: PreviewProvider
 {
   static var previews: some View
   {
-    ContentView()
+    Group {
+      ContentView()
+        .previewDisplayName("WindowPreview")
+    }
   }
 }
