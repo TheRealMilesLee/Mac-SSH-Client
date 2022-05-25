@@ -15,8 +15,9 @@ struct ContentView: View
         {
           NavigationLink(destination: HomePageView()){Text ("Home Page").padding(.all)}
           NavigationLink(destination: NewConnectionView()){Text ("New connect").padding(.all)}
-          NavigationLink(destination: HistoryConnectionView()){Text ("History Connect").padding(.all)}
-          NavigationLink(destination: FileTransferView()){Text ("File Transfer").padding(.all)}
+          NavigationLink(destination: HistoryConnectionView()){Text("History Connect").padding(.all)}
+          NavigationLink(destination: FileTransferView()){Text("File Transfer").padding(.all)}
+          NavigationLink(destination:ConnectionView()){Text("Connection").padding(.all)}
         }
       }
       VStack
@@ -41,7 +42,7 @@ struct HomePageView: View
 
 struct NewConnectionView: View
 {
-  @State var hostAddress = ""
+  @State var hostAddress = "127.0.0.1"
   var body: some View
   {
     Form
@@ -67,6 +68,14 @@ struct FileTransferView: View
   var body: some View
   {
     Text ("File Transfer here").navigationTitle("File Transfer")
+  }
+}
+
+struct ConnectionView: View
+{
+  var body: some View
+  {
+    Text("Connection 界面").navigationTitle("Connection")
   }
 }
 
