@@ -68,7 +68,7 @@ struct NewConnectionView: View
       }
       Button("Connect")
       {
-        print("host address: \(hostAddress) \nhost port: \(hostPort) \nusername: \(username) \npassword: \(password) \nAlias: \(alias)")
+        connectToHost(Address: hostAddress, Port: hostPort, Tag: alias, Name: username, Pass: password)
       }
     } .navigationTitle("New Connection")
   }
@@ -98,14 +98,16 @@ struct ConnectionView: View
   }
 }
 
+func connectToHost(Address: String, Port: String, Tag: String, Name: String, Pass: String)
+{
+  print("host address: \(Address) \nhost port: \(Port) \nusername: \(Tag) \npassword: \(Name) \nAlias: \(Pass)")
+}
+
 
 struct ContentView_Previews: PreviewProvider
 {
   static var previews: some View
   {
-    Group {
-      ContentView()
-        .previewDisplayName("WindowPreview")
-    }
+    ContentView().previewDisplayName("Preview")
   }
 }
