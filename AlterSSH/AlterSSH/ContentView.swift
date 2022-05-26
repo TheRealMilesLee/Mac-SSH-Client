@@ -3,6 +3,7 @@
  */
 import SwiftUI
 import Foundation
+import WebKit
 
 struct ContentView: View
 {
@@ -14,11 +15,12 @@ struct ContentView: View
       {
         List
         {
-          NavigationLink(destination: HomePageView()){Text ("Home Page").padding(.all)}
-          NavigationLink(destination: NewConnectionView()){Text ("New connect").padding(.all)}
-          NavigationLink(destination: HistoryConnectionView()){Text("History Connect").padding(.all)}
-          NavigationLink(destination: FileTransferView()){Text("File Transfer").padding(.all)}
-          NavigationLink(destination:ConnectionView()){Text("Connection").padding(.all)}
+          NavigationLink(destination: HomePageView()){Text("Home Page").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: NewConnectionView()){Text("New connect").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: HistoryConnectionView()){Text("History Connect").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: FileTransferView()){Text("File Transfer").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: ConnectionView()){Text("Connection").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: SettingsView()){Text("Settings").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
         }
       }
       VStack
@@ -50,26 +52,28 @@ struct NewConnectionView: View
   @State var password = ""
   var body: some View
   {
-    VStack
+    HStack
     {
-      Form
+      Spacer()
+      Form()
       {
-        Section
+        Section(header: Text ("Host Information"))
         {
           TextField("Host Address", text: $hostAddress)
           TextField("Host Port", text: $hostPort)
         }
-        Section
+        Section(header: Text ("Connect Information"))
         {
           TextField("Alias", text: $alias)
           TextField("Username", text: $username)
           TextField("Password", text: $password)
         }
+        Button("Connect")
+        {
+          connectToHost(Address: hostAddress, Port: hostPort, Tag: alias, Name: username, Pass: password)
+        }
       }
-      Button("Connect")
-      {
-        connectToHost(Address: hostAddress, Port: hostPort, Tag: alias, Name: username, Pass: password)
-      }
+
     } .navigationTitle("New Connection")
   }
 }
@@ -92,22 +96,22 @@ struct FileTransferView: View
 
 struct ConnectionView: View
 {
+  @State var text = "<html><body><h1>Hello World</h1></body></html>"
   var body: some View
   {
-    Text("Connection 界面").navigationTitle("Connection")
+    Text ("Make a terminal here")
+  }
+}
+
+struct SettingsView: View
+{
+  var body: some View
+  {
+    Text ("Here is the settings menu")
   }
 }
 
 func connectToHost(Address: String, Port: String, Tag: String, Name: String, Pass: String)
 {
   print("host address: \(Address) \nhost port: \(Port) \nusername: \(Tag) \npassword: \(Name) \nAlias: \(Pass)")
-}
-
-
-struct ContentView_Previews: PreviewProvider
-{
-  static var previews: some View
-  {
-    ContentView().previewDisplayName("Preview")
-  }
 }
