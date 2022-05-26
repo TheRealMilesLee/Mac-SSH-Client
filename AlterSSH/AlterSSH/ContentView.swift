@@ -2,6 +2,7 @@
  * This file is the main page for the window
  */
 import SwiftUI
+import Foundation
 
 struct ContentView: View
 {
@@ -43,13 +44,31 @@ struct HomePageView: View
 struct NewConnectionView: View
 {
   @State var hostAddress = "127.0.0.1"
+  @State var hostPort = "22"
+  @State var alias = ""
+  @State var username = ""
+  @State var password = ""
   var body: some View
   {
-    Form
+    VStack
     {
-      Section
+      Form
       {
-        TextField("Host Address", text: $hostAddress)
+        Section
+        {
+          TextField("Host Address", text: $hostAddress)
+          TextField("Host Port", text: $hostPort)
+        }
+        Section
+        {
+          TextField("Alias", text: $alias)
+          TextField("Username", text: $username)
+          TextField("Password", text: $password)
+        }
+      }
+      Button("Connect")
+      {
+        print("host address: \(hostAddress) \nhost port: \(hostPort) \nusername: \(username) \npassword: \(password) \nAlias: \(alias)")
       }
     } .navigationTitle("New Connection")
   }
