@@ -54,7 +54,6 @@ struct NewConnectionView: View
   {
     HStack
     {
-      Spacer()
       Form()
       {
         Section(header: Text ("Host Information"))
@@ -73,7 +72,6 @@ struct NewConnectionView: View
           connectToHost(Address: hostAddress, Port: hostPort, Tag: alias, Name: username, Pass: password)
         }
       }
-
     } .navigationTitle("New Connection")
   }
 }
@@ -90,7 +88,7 @@ struct FileTransferView: View
 {
   var body: some View
   {
-    Text ("File Transfer here").navigationTitle("File Transfer")
+    Text("File Manager").padding(.all).position(x: 110, y: 50).font(.system(size: 25, weight: .light, design: .serif))
   }
 }
 
@@ -113,5 +111,5 @@ struct SettingsView: View
 
 func connectToHost(Address: String, Port: String, Tag: String, Name: String, Pass: String)
 {
-  print("host address: \(Address) \nhost port: \(Port) \nusername: \(Tag) \npassword: \(Name) \nAlias: \(Pass)")
+  print(NSHomeDirectory())
 }
