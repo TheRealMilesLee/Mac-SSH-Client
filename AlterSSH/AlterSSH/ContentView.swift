@@ -2,6 +2,8 @@
  * This file is the main page for the window
  */
 import SwiftUI
+import Foundation
+import WebKit
 
 struct ContentView: View
 {
@@ -13,11 +15,12 @@ struct ContentView: View
       {
         List
         {
-          NavigationLink(destination: HomePageView()){Text ("Home Page").padding(.all)}
-          NavigationLink(destination: NewConnectionView()){Text ("New connect").padding(.all)}
-          NavigationLink(destination: HistoryConnectionView()){Text("History Connect").padding(.all)}
-          NavigationLink(destination: FileTransferView()){Text("File Transfer").padding(.all)}
-          NavigationLink(destination:ConnectionView()){Text("Connection").padding(.all)}
+          NavigationLink(destination: HomePageView()){Text("Home Page").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: NewConnectionView()){Text("New connect").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: HistoryConnectionView()){Text("History Connect").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: FileTransferView()){Text("File Transfer").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: ConnectionView()){Text("Connection").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
+          NavigationLink(destination: SettingsView()){Text("Settings").padding(.all).font(.system(size: 12, weight: .light, design: .serif))}
         }
       }
       VStack
@@ -43,13 +46,31 @@ struct HomePageView: View
 struct NewConnectionView: View
 {
   @State var hostAddress = "127.0.0.1"
+  @State var hostPort = "22"
+  @State var alias = ""
+  @State var username = ""
+  @State var password = ""
   var body: some View
   {
-    Form
+    HStack
     {
-      Section
+      Form()
       {
-        TextField("Host Address", text: $hostAddress)
+        Section(header: Text ("Host Information"))
+        {
+          TextField("Host Address", text: $hostAddress)
+          TextField("Host Port", text: $hostPort)
+        }
+        Section(header: Text ("Connect Information"))
+        {
+          TextField("Alias", text: $alias)
+          TextField("Username", text: $username)
+          TextField("Password", text: $password)
+        }
+        Button("Connect")
+        {
+          connectToHost(Address: hostAddress, Port: hostPort, Tag: alias, Name: username, Pass: password)
+        }
       }
     } .navigationTitle("New Connection")
   }
@@ -67,26 +88,28 @@ struct FileTransferView: View
 {
   var body: some View
   {
-    Text ("File Transfer here").navigationTitle("File Transfer")
+    Text("File Manager").padding(.all).position(x: 110, y: 50).font(.system(size: 25, weight: .light, design: .serif))
   }
 }
 
 struct ConnectionView: View
 {
+  @State var text = "<html><body><h1>Hello World</h1></body></html>"
   var body: some View
   {
-    Text("Connection 界面").navigationTitle("Connection")
+    Text ("Make a terminal here")
   }
 }
 
-
-struct ContentView_Previews: PreviewProvider
+struct SettingsView: View
 {
-  static var previews: some View
+  var body: some View
   {
-    Group {
-      ContentView()
-        .previewDisplayName("WindowPreview")
-    }
+    Text ("Here is the settings menu")
   }
+}
+
+func connectToHost(Address: String, Port: String, Tag: String, Name: String, Pass: String)
+{
+  print(NSHomeDirectory())
 }
