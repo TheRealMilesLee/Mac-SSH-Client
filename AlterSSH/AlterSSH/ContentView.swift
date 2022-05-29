@@ -113,3 +113,9 @@ func connectToHost(Address: String, Port: String, Tag: String, Name: String, Pas
 {
   print(NSHomeDirectory())
 }
+
+struct ContentView_Previews: PreviewProvider {
+  static var previews: some View {
+    ContentView()
+  }
+}
