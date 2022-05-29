@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "1f9836559ceb6bc0a3e4cce06e042457fedbe7baf637eecaa37eeb0032a1779c"
+build_start_time: [1653842792, 332118034]
+build_end_time: [1653842794, 319597005]
+inputs:
+  "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/AlterSSH/AlterSSHApp.swift": [1653671012, 373173713]
+  "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/AlterSSH/ContentView.swift": [1653841909, 918830394]

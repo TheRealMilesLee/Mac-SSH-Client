@@ -1,0 +1,2202 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AlterSSH",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AlterSSH"
+    },
+    {
+      "kind": "Import",
+      "name": "WebKit",
+      "printedName": "WebKit",
+      "declKind": "Import",
+      "moduleName": "AlterSSH"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH11ContentViewV4bodyQrvp",
+          "mangledName": "$s8AlterSSH11ContentViewV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH11ContentViewV4bodyQrvg",
+              "mangledName": "$s8AlterSSH11ContentViewV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "AlterSSH.ContentView",
+              "usr": "s:8AlterSSH11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH11ContentViewVACycfc",
+          "mangledName": "$s8AlterSSH11ContentViewVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH11ContentViewV",
+      "mangledName": "$s8AlterSSH11ContentViewV",
+      "moduleName": "AlterSSH",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomePageView",
+      "printedName": "HomePageView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH12HomePageViewV4bodyQrvp",
+          "mangledName": "$s8AlterSSH12HomePageViewV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH12HomePageViewV4bodyQrvg",
+              "mangledName": "$s8AlterSSH12HomePageViewV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomePageView",
+              "printedName": "AlterSSH.HomePageView",
+              "usr": "s:8AlterSSH12HomePageViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH12HomePageViewVACycfc",
+          "mangledName": "$s8AlterSSH12HomePageViewVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH12HomePageViewV",
+      "mangledName": "$s8AlterSSH12HomePageViewV",
+      "moduleName": "AlterSSH",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NewConnectionView",
+      "printedName": "NewConnectionView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "hostAddress",
+          "printedName": "hostAddress",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV11hostAddressSSvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV11hostAddressSSvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV11hostAddressSSvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV11hostAddressSSvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV11hostAddressSSvs",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV11hostAddressSSvs",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV11hostAddressSSvM",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV11hostAddressSSvM",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$hostAddress",
+          "printedName": "$hostAddress",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV12$hostAddress7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV12$hostAddress7SwiftUI7BindingVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV12$hostAddress7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV12$hostAddress7SwiftUI7BindingVySSGvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_hostAddress",
+          "printedName": "_hostAddress",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV12_hostAddress33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV12_hostAddress33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "hostPort",
+          "printedName": "hostPort",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV8hostPortSSvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV8hostPortSSvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8hostPortSSvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8hostPortSSvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8hostPortSSvs",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8hostPortSSvs",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8hostPortSSvM",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8hostPortSSvM",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$hostPort",
+          "printedName": "$hostPort",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV9$hostPort7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV9$hostPort7SwiftUI7BindingVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV9$hostPort7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV9$hostPort7SwiftUI7BindingVySSGvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_hostPort",
+          "printedName": "_hostPort",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV9_hostPort33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV9_hostPort33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "alias",
+          "printedName": "alias",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV5aliasSSvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV5aliasSSvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV5aliasSSvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV5aliasSSvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV5aliasSSvs",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV5aliasSSvs",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV5aliasSSvM",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV5aliasSSvM",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$alias",
+          "printedName": "$alias",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV6$alias7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV6$alias7SwiftUI7BindingVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV6$alias7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV6$alias7SwiftUI7BindingVySSGvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_alias",
+          "printedName": "_alias",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV6_alias33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV6_alias33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "username",
+          "printedName": "username",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV8usernameSSvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV8usernameSSvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8usernameSSvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8usernameSSvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8usernameSSvs",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8usernameSSvs",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8usernameSSvM",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8usernameSSvM",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$username",
+          "printedName": "$username",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV9$username7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV9$username7SwiftUI7BindingVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV9$username7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV9$username7SwiftUI7BindingVySSGvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_username",
+          "printedName": "_username",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV9_username33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV9_username33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "password",
+          "printedName": "password",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV8passwordSSvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV8passwordSSvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8passwordSSvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8passwordSSvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8passwordSSvs",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8passwordSSvs",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV8passwordSSvM",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV8passwordSSvM",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$password",
+          "printedName": "$password",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV9$password7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV9$password7SwiftUI7BindingVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV9$password7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV9$password7SwiftUI7BindingVySSGvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_password",
+          "printedName": "_password",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV9_password33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV9_password33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH17NewConnectionViewV4bodyQrvp",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH17NewConnectionViewV4bodyQrvg",
+              "mangledName": "$s8AlterSSH17NewConnectionViewV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(hostAddress:hostPort:alias:username:password:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NewConnectionView",
+              "printedName": "AlterSSH.NewConnectionView",
+              "usr": "s:8AlterSSH17NewConnectionViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH17NewConnectionViewV11hostAddress0F4Port5alias8username8passwordACSS_S4Stcfc",
+          "mangledName": "$s8AlterSSH17NewConnectionViewV11hostAddress0F4Port5alias8username8passwordACSS_S4Stcfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NewConnectionView",
+              "printedName": "AlterSSH.NewConnectionView",
+              "usr": "s:8AlterSSH17NewConnectionViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH17NewConnectionViewVACycfc",
+          "mangledName": "$s8AlterSSH17NewConnectionViewVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH17NewConnectionViewV",
+      "mangledName": "$s8AlterSSH17NewConnectionViewV",
+      "moduleName": "AlterSSH",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HistoryConnectionView",
+      "printedName": "HistoryConnectionView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH21HistoryConnectionViewV4bodyQrvp",
+          "mangledName": "$s8AlterSSH21HistoryConnectionViewV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH21HistoryConnectionViewV4bodyQrvg",
+              "mangledName": "$s8AlterSSH21HistoryConnectionViewV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HistoryConnectionView",
+              "printedName": "AlterSSH.HistoryConnectionView",
+              "usr": "s:8AlterSSH21HistoryConnectionViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH21HistoryConnectionViewVACycfc",
+          "mangledName": "$s8AlterSSH21HistoryConnectionViewVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH21HistoryConnectionViewV",
+      "mangledName": "$s8AlterSSH21HistoryConnectionViewV",
+      "moduleName": "AlterSSH",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FileTransferView",
+      "printedName": "FileTransferView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH16FileTransferViewV4bodyQrvp",
+          "mangledName": "$s8AlterSSH16FileTransferViewV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH16FileTransferViewV4bodyQrvg",
+              "mangledName": "$s8AlterSSH16FileTransferViewV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FileTransferView",
+              "printedName": "AlterSSH.FileTransferView",
+              "usr": "s:8AlterSSH16FileTransferViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH16FileTransferViewVACycfc",
+          "mangledName": "$s8AlterSSH16FileTransferViewVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH16FileTransferViewV",
+      "mangledName": "$s8AlterSSH16FileTransferViewV",
+      "moduleName": "AlterSSH",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ConnectionView",
+      "printedName": "ConnectionView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "text",
+          "printedName": "text",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH14ConnectionViewV4textSSvp",
+          "mangledName": "$s8AlterSSH14ConnectionViewV4textSSvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH14ConnectionViewV4textSSvg",
+              "mangledName": "$s8AlterSSH14ConnectionViewV4textSSvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH14ConnectionViewV4textSSvs",
+              "mangledName": "$s8AlterSSH14ConnectionViewV4textSSvs",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH14ConnectionViewV4textSSvM",
+              "mangledName": "$s8AlterSSH14ConnectionViewV4textSSvM",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$text",
+          "printedName": "$text",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH14ConnectionViewV5$text7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s8AlterSSH14ConnectionViewV5$text7SwiftUI7BindingVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH14ConnectionViewV5$text7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s8AlterSSH14ConnectionViewV5$text7SwiftUI7BindingVySSGvg",
+              "moduleName": "AlterSSH",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_text",
+          "printedName": "_text",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH14ConnectionViewV5_text33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s8AlterSSH14ConnectionViewV5_text33_BD1E11E6207FBA45FE9C73C4EEBFA415LL7SwiftUI5StateVySSGvp",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH14ConnectionViewV4bodyQrvp",
+          "mangledName": "$s8AlterSSH14ConnectionViewV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH14ConnectionViewV4bodyQrvg",
+              "mangledName": "$s8AlterSSH14ConnectionViewV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(text:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionView",
+              "printedName": "AlterSSH.ConnectionView",
+              "usr": "s:8AlterSSH14ConnectionViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH14ConnectionViewV4textACSS_tcfc",
+          "mangledName": "$s8AlterSSH14ConnectionViewV4textACSS_tcfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionView",
+              "printedName": "AlterSSH.ConnectionView",
+              "usr": "s:8AlterSSH14ConnectionViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH14ConnectionViewVACycfc",
+          "mangledName": "$s8AlterSSH14ConnectionViewVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH14ConnectionViewV",
+      "mangledName": "$s8AlterSSH14ConnectionViewV",
+      "moduleName": "AlterSSH",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SettingsView",
+      "printedName": "SettingsView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH12SettingsViewV4bodyQrvp",
+          "mangledName": "$s8AlterSSH12SettingsViewV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH12SettingsViewV4bodyQrvg",
+              "mangledName": "$s8AlterSSH12SettingsViewV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SettingsView",
+              "printedName": "AlterSSH.SettingsView",
+              "usr": "s:8AlterSSH12SettingsViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH12SettingsViewVACycfc",
+          "mangledName": "$s8AlterSSH12SettingsViewVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH12SettingsViewV",
+      "mangledName": "$s8AlterSSH12SettingsViewV",
+      "moduleName": "AlterSSH",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Function",
+      "name": "connectToHost",
+      "printedName": "connectToHost(Address:Port:Tag:Name:Pass:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:8AlterSSH13connectToHost7Address4Port3Tag4Name4PassySS_S4StF",
+      "mangledName": "$s8AlterSSH13connectToHost7Address4Port3Tag4Name4PassySS_S4StF",
+      "moduleName": "AlterSSH",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AlterSSH",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AlterSSHApp",
+      "printedName": "AlterSSHApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8AlterSSH0A6SSHAppV4bodyQrvp",
+          "mangledName": "$s8AlterSSH0A6SSHAppV4bodyQrvp",
+          "moduleName": "AlterSSH",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8AlterSSH0A6SSHAppV4bodyQrvg",
+              "mangledName": "$s8AlterSSH0A6SSHAppV4bodyQrvg",
+              "moduleName": "AlterSSH",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AlterSSHApp",
+              "printedName": "AlterSSH.AlterSSHApp",
+              "usr": "s:8AlterSSH0A6SSHAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8AlterSSH0A6SSHAppVACycfc",
+          "mangledName": "$s8AlterSSH0A6SSHAppVACycfc",
+          "moduleName": "AlterSSH",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8AlterSSH0A6SSHAppV5$mainyyFZ",
+          "mangledName": "$s8AlterSSH0A6SSHAppV5$mainyyFZ",
+          "moduleName": "AlterSSH",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8AlterSSH0A6SSHAppV",
+      "mangledName": "$s8AlterSSH0A6SSHAppV",
+      "moduleName": "AlterSSH",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

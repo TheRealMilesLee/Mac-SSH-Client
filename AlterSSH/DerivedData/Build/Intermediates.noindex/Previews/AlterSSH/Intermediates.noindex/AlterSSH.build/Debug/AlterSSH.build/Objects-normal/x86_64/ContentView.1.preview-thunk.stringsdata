@@ -1,0 +1,96 @@
+{
+  "source": "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData/Build/Intermediates.noindex/Previews/AlterSSH/Intermediates.noindex/AlterSSH.build/Debug/AlterSSH.build/Objects-normal/x86_64/ContentView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Here is the settings menu"
+      },
+      {
+        "comment": "",
+        "key": "Make a terminal here"
+      },
+      {
+        "comment": "",
+        "key": "File Manager"
+      },
+      {
+        "comment": "",
+        "key": "History connection here"
+      },
+      {
+        "comment": "",
+        "key": "History Connection"
+      },
+      {
+        "comment": "",
+        "key": "New Connection"
+      },
+      {
+        "comment": "",
+        "key": "Host Information"
+      },
+      {
+        "comment": "",
+        "key": "Connect Information"
+      },
+      {
+        "comment": "",
+        "key": "Connect"
+      },
+      {
+        "comment": "",
+        "key": "Host Address"
+      },
+      {
+        "comment": "",
+        "key": "Host Port"
+      },
+      {
+        "comment": "",
+        "key": "Alias"
+      },
+      {
+        "comment": "",
+        "key": "Username"
+      },
+      {
+        "comment": "",
+        "key": "Password"
+      },
+      {
+        "comment": "",
+        "key": "Home Page"
+      },
+      {
+        "comment": "",
+        "key": "Welcome"
+      },
+      {
+        "comment": "",
+        "key": "begin your journey by make a new connection or select a exisitig connection from the history"
+      },
+      {
+        "comment": "",
+        "key": "New connect"
+      },
+      {
+        "comment": "",
+        "key": "History Connect"
+      },
+      {
+        "comment": "",
+        "key": "File Transfer"
+      },
+      {
+        "comment": "",
+        "key": "Connection"
+      },
+      {
+        "comment": "",
+        "key": "Settings"
+      }
+    ]
+  },
+  "version": 1
+}

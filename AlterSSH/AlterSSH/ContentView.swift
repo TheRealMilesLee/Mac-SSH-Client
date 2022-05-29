@@ -111,11 +111,13 @@ struct SettingsView: View
 
 func connectToHost(Address: String, Port: String, Tag: String, Name: String, Pass: String)
 {
-  print(NSHomeDirectory())
-}
-
-struct ContentView_Previews: PreviewProvider {
-  static var previews: some View {
-    ContentView()
-  }
+  let process = Process()
+  let pipe = Pipe()
+  process.launchPath = "/bin/bash"
+  process.arguments = ["-c","ssh hl3265@sand.truman.edu -p 22"]
+  process.standardOutput = pipe
+  process.launch()
+  let output = String(data: pipe.fileHandleForReading.readDataToEndOfFile(), encoding: String.Encoding.utf8)!
+  process.waitUntilExit()
+  print(output)
 }

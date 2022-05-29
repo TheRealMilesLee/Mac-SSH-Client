@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>253509A3-30B5-44FF-8A9D-42881BFF34DF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>253509A3-30B5-44FF-8A9D-42881BFF34DF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675536076.348315</real>
+			<key>timeStoppedRecording</key>
+			<real>675536321.559618</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>253509A3-30B5-44FF-8A9D-42881BFF34DF</string>
+		</dict>
+		<key>478AEB59-5AA2-47CB-B41D-E5820595CC8A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>478AEB59-5AA2-47CB-B41D-E5820595CC8A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675535858.34060299</real>
+			<key>timeStoppedRecording</key>
+			<real>675535896.42669404</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>478AEB59-5AA2-47CB-B41D-E5820595CC8A</string>
+		</dict>
+		<key>4DE2A645-3C86-4929-9EC1-EBE04B815E8C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4DE2A645-3C86-4929-9EC1-EBE04B815E8C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675534713.97287905</real>
+			<key>timeStoppedRecording</key>
+			<real>675534750.60346198</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>4DE2A645-3C86-4929-9EC1-EBE04B815E8C</string>
+		</dict>
+		<key>6C8BAD3D-7D2F-41C7-B3EE-616B825A53C2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6C8BAD3D-7D2F-41C7-B3EE-616B825A53C2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675534644.616781</real>
+			<key>timeStoppedRecording</key>
+			<real>675534665.63463104</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>6C8BAD3D-7D2F-41C7-B3EE-616B825A53C2</string>
+		</dict>
+		<key>86BE232A-85CE-4DC2-8543-074C6D65CEAE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>86BE232A-85CE-4DC2-8543-074C6D65CEAE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675536322.09154201</real>
+			<key>timeStoppedRecording</key>
+			<real>675536460.17180097</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>86BE232A-85CE-4DC2-8543-074C6D65CEAE</string>
+		</dict>
+		<key>88B7569B-A378-41D2-932B-C02B19EDA391</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>88B7569B-A378-41D2-932B-C02B19EDA391.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675536047.34012997</real>
+			<key>timeStoppedRecording</key>
+			<real>675536072.66895294</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>88B7569B-A378-41D2-932B-C02B19EDA391</string>
+		</dict>
+		<key>892CC1CF-B09B-414E-AA1E-3A1828286B60</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>892CC1CF-B09B-414E-AA1E-3A1828286B60.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675535966.40652895</real>
+			<key>timeStoppedRecording</key>
+			<real>675535976.54406297</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>892CC1CF-B09B-414E-AA1E-3A1828286B60</string>
+		</dict>
+		<key>93A6A53F-4C05-4F9C-B446-25420CA5E5FC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>93A6A53F-4C05-4F9C-B446-25420CA5E5FC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675535896.95402098</real>
+			<key>timeStoppedRecording</key>
+			<real>675535965.55731297</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>93A6A53F-4C05-4F9C-B446-25420CA5E5FC</string>
+		</dict>
+		<key>96625018-2EC8-4F02-B7AE-9E8ADBDD65CF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>96625018-2EC8-4F02-B7AE-9E8ADBDD65CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675534673.63230896</real>
+			<key>timeStoppedRecording</key>
+			<real>675534710.01616395</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>96625018-2EC8-4F02-B7AE-9E8ADBDD65CF</string>
+		</dict>
+		<key>A63513C5-245E-4952-8657-E8B72A62BB8C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A63513C5-245E-4952-8657-E8B72A62BB8C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675536460.48240805</real>
+			<key>timeStoppedRecording</key>
+			<real>675536582.10354304</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>A63513C5-245E-4952-8657-E8B72A62BB8C</string>
+		</dict>
+		<key>AD9EAED2-C478-4B9D-8F82-5593FA4AEB37</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AD9EAED2-C478-4B9D-8F82-5593FA4AEB37.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675534955.32054102</real>
+			<key>timeStoppedRecording</key>
+			<real>675534965.72286904</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>AD9EAED2-C478-4B9D-8F82-5593FA4AEB37</string>
+		</dict>
+		<key>B9F36979-B63D-4C56-80F6-5D027F191FDF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B9F36979-B63D-4C56-80F6-5D027F191FDF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675536582.66635597</real>
+			<key>timeStoppedRecording</key>
+			<real>675536594.95261502</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>B9F36979-B63D-4C56-80F6-5D027F191FDF</string>
+		</dict>
+		<key>CB2DA30D-7283-43AC-81FB-73E21C4BD36E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CB2DA30D-7283-43AC-81FB-73E21C4BD36E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675534382.83242798</real>
+			<key>timeStoppedRecording</key>
+			<real>675534392.83692098</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>CB2DA30D-7283-43AC-81FB-73E21C4BD36E</string>
+		</dict>
+		<key>DDEFFE77-9630-4C3B-9422-604DF080BFD0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DDEFFE77-9630-4C3B-9422-604DF080BFD0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>675534632.08471298</real>
+			<key>timeStoppedRecording</key>
+			<real>675534644.58903396</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>DDEFFE77-9630-4C3B-9422-604DF080BFD0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

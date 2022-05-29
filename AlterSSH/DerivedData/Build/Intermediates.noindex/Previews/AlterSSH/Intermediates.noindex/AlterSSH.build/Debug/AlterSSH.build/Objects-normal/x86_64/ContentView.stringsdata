@@ -1,0 +1,96 @@
+{
+  "source": "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/AlterSSH/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Welcome"
+      },
+      {
+        "comment": "",
+        "key": "Home Page"
+      },
+      {
+        "comment": "",
+        "key": "New connect"
+      },
+      {
+        "comment": "",
+        "key": "History Connect"
+      },
+      {
+        "comment": "",
+        "key": "File Transfer"
+      },
+      {
+        "comment": "",
+        "key": "Connection"
+      },
+      {
+        "comment": "",
+        "key": "Settings"
+      },
+      {
+        "comment": "",
+        "key": "begin your journey by make a new connection or select a exisitig connection from the history"
+      },
+      {
+        "comment": "",
+        "key": "New Connection"
+      },
+      {
+        "comment": "",
+        "key": "Host Information"
+      },
+      {
+        "comment": "",
+        "key": "Connect Information"
+      },
+      {
+        "comment": "",
+        "key": "Connect"
+      },
+      {
+        "comment": "",
+        "key": "Host Address"
+      },
+      {
+        "comment": "",
+        "key": "Host Port"
+      },
+      {
+        "comment": "",
+        "key": "Alias"
+      },
+      {
+        "comment": "",
+        "key": "Username"
+      },
+      {
+        "comment": "",
+        "key": "Password"
+      },
+      {
+        "comment": "",
+        "key": "History connection here"
+      },
+      {
+        "comment": "",
+        "key": "History Connection"
+      },
+      {
+        "comment": "",
+        "key": "File Manager"
+      },
+      {
+        "comment": "",
+        "key": "Make a terminal here"
+      },
+      {
+        "comment": "",
+        "key": "Here is the settings menu"
+      }
+    ]
+  },
+  "version": 1
+}
