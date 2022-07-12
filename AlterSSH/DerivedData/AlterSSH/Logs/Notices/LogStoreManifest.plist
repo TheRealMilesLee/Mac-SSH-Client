@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>53013FE8-BB43-4916-8297-473D691ECCAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>53013FE8-BB43-4916-8297-473D691ECCAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/AlterSSH.xcodeproj|7B2F5D0C283E91D900DD4CC0</string>
+			<key>timeStartedRecording</key>
+			<real>679291085.17986</real>
+			<key>timeStoppedRecording</key>
+			<real>679291085.35596895</real>
+			<key>title</key>
+			<string>Build AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>53013FE8-BB43-4916-8297-473D691ECCAD</string>
+		</dict>
+		<key>88424FDF-283E-4670-9892-A012EF9B427A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>88424FDF-283E-4670-9892-A012EF9B427A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>|Prepare build</string>
+			<key>timeStartedRecording</key>
+			<real>679290803.60317802</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>88424FDF-283E-4670-9892-A012EF9B427A</string>
+		</dict>
+		<key>F7BD2A64-8F29-413A-B9B5-C002E1F9D971</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F7BD2A64-8F29-413A-B9B5-C002E1F9D971.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/AlterSSH.xcodeproj|7B2F5D0C283E91D900DD4CC0</string>
+			<key>timeStartedRecording</key>
+			<real>679290803.60317802</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>F7BD2A64-8F29-413A-B9B5-C002E1F9D971</string>
+		</dict>
+		<key>FE590352-B95E-4676-87C4-08BE29573D6C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FE590352-B95E-4676-87C4-08BE29573D6C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>|Prepare build</string>
+			<key>timeStartedRecording</key>
+			<real>679291085.17986</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>FE590352-B95E-4676-87C4-08BE29573D6C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

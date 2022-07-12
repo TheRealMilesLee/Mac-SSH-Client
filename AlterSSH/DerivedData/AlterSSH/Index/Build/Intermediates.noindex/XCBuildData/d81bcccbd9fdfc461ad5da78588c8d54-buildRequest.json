@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "0751e310bc3180618acca474512a6c1cf171bf2da30a5083ac8b4dcfec8cdf2c"
+    }
+  ],
+  "containerPath" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/AlterSSH.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData/AlterSSH/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData/AlterSSH/Index/Build/Products",
+      "derivedDataPath" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData/AlterSSH/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData/AlterSSH/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData/AlterSSH/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/Silverhand/Developer/Mac-SSH-Client/AlterSSH/DerivedData/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

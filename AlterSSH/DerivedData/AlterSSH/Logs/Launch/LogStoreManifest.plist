@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>4E30E8CF-80F2-4BE9-A61C-C88B9A7BCD27</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>DA90350E-FCCE-4AC5-909E-CE48A853ADED</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AlterSSH-2022.07.11_23-53-23--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>679290803.60111296</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>4E30E8CF-80F2-4BE9-A61C-C88B9A7BCD27</string>
+		</dict>
+		<key>B87C4A2A-C41F-4904-847D-5CE90459E06A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>42FD9205-724E-41C2-AB2E-E2659DCE3A37</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AlterSSH-2022.07.11_23-58-05--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlterSSH project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlterSSH</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AlterSSH</string>
+			<key>timeStartedRecording</key>
+			<real>679291085.17966199</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AlterSSH</string>
+			<key>uniqueIdentifier</key>
+			<string>B87C4A2A-C41F-4904-847D-5CE90459E06A</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
